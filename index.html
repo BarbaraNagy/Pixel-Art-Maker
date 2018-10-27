@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pixel Art Maker</title>
+	<link rel=stylesheet type="text/css" href="style.css">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+<h1> Pixel Art Maker </h1>
+<h2>Choose Grid Size!</h2>
+<div class="container"> 
+
+	<label for="row">Width</label>
+	<input type="number" id="row" name="number_of_rows">
+
+	<label for="column">Height</label>
+	<input type="number" id="column" name="number_of_columns">
+
+	<label for="color">Choose your colour!</label>
+	<input type="color" id="color" name="colour_choice" value="#000000">
+	<button id="submit">Create My Canvass!</button>
+</div>
+<div>
+	<table id=pixelGrid></table>
+</div>
+
+<script src="script.js"> </script>
+</body>
+</html>
